@@ -4,6 +4,9 @@ The event was held from Thursday, August 6 at 6:00 pm Pacific. End August 8 at 6
 
 My team managed to complete all the OSINT and Cortex XDR by Palo Alto Networks challenges. There are other challenges such as Software Defined Radio, DFIR, Crypto, Re, and Web as well.
 
+With that my team managed to rank at 44/189 teams
+<img src="https://user-images.githubusercontent.com/54532620/89723667-e80f7f00-da2b-11ea-84bd-ecc77806aaf2.png">
+
 # Solutions
 ## Cortex XDR by Palo Alto Networks
 
