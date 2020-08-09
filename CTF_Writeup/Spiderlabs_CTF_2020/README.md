@@ -159,4 +159,4 @@ With the latest hint, I was able to find the website with all the building permi
 
 I opened the CSV and started to filter the address to 70 W Madison, sort the application date from newest to the oldest, and was trying different columns at first. Until I notice on the second row description after I expand about changing contractor. Therefore, the answer is `SOUTH PARK PLUMBING INC`
 
-<img src="https://user-images.githubusercontent.com/54532620/89723546-7f73d280-da2a-11ea-9849-9a188ce75e61.png">
+<img src="https://user-images.githubusercontent.com/54532620/89723614-64559280-da2b-11ea-8e66-ac209d49aef6.png">
