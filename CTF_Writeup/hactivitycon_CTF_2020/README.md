@@ -23,7 +23,8 @@ What I did was ROT13 the first half of the text, the second half I reverse sente
 Joining the 3 section of the flag it will give you `flag{julius_in_a_reflection}`
 
 ### Common Place
-```asd7138: can you find the flag here?
+```
+asd7138: can you find the flag here?
 tcm3137: no, i dont see it
 jwh8163: i cant find it either
 rfc5785: i found it
@@ -116,7 +117,7 @@ Found the flag from nahamsec disclosure page with Lyft.
 <img src="https://pbs.twimg.com/media/EeUS6LuU0AAoaVT?format=png">
 
 
-### <a href="in">
+### \<a href="in"\>
 This is the linkedin page of hackerone.
 
 <img src="https://user-images.githubusercontent.com/54532620/89725062-c28b7100-da3d-11ea-9800-f709f8cd0608.png">
@@ -152,12 +153,14 @@ The flag is on the latest Hackerone instagram post.
 Clue was `Hack2Learn`
 
 I was able to login to the hackerone CTF platform and found the flag.
+
 <img src="https://user-images.githubusercontent.com/54532620/89725010-1184d680-da3d-11ea-91c4-94a7f9d1b0d9.png">
 
 ### The Hacker101
 Clue was `Is this CTF working?`
 
 I was able to login to the hackerone CTF platform and found the flag.
+
 <img src="https://user-images.githubusercontent.com/54532620/89725010-1184d680-da3d-11ea-91c4-94a7f9d1b0d9.png">
 
 ### Security@
