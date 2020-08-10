@@ -4,7 +4,8 @@ The event was held from July 29th 12:00 PM PDT - July 31st, 12:00 PM PDT.
 
 I particpated alone and managed to complete most of the Scavenger Hunt, some Warmups, Steganography, and Forensics. There are other challenges such as Binary Exploitation, Mobile, Internet of Things, Scripting, and Web as well.
 
-I managed to finish at rank 574/3663 players
+I managed to finish at rank 574/3663 players.
+
 <img src="https://user-images.githubusercontent.com/54532620/89724705-19427c00-da39-11ea-8275-2a5ab1e4db76.JPG">
 
 # Solutions

